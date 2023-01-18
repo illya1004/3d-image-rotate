@@ -1,0 +1,20 @@
+/* Webfont: MacPawFixelDisplay-Bold */
+@font-face {
+    font-family: 'MacPawFixelDisplayBold';
+    src: url('fonts/MacPawFixelDisplay-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/MacPawFixelDisplay-Bold.otf') format('opentype'); /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: MacPawFixelDisplay-Light */
+@font-face {
+    font-family: 'MacPawFixelDisplayLight';
+    src: url('fonts/MacPawFixelDisplay-Light.woff2') format('woff2'), /* Modern Browsers */
+         url('fonts/MacPawFixelDisplay-Light.otf') format('opentype'); /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}

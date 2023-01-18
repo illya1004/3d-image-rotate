@@ -1,0 +1,53 @@
+$header-font-family: "MacPawFixelDisplayBold", Georgia;
+$base-font-family: "MacPawFixelDisplayLight", Georgia;
+$header-font-feature-settings: "salt", "ss01";
+$header-font-size: 42px;
+
+body {
+    background: #333 !important;
+    color: white !important;
+}
+
+.main {
+    text-align: center;
+    font-family: $base-font-family;
+    display: inline-flex;
+
+    img {
+        width: 100%;
+        height: 400px;
+        transition: all 0.25s linear;
+
+        display: block;
+    }
+}
+
+.header-font {
+    font-family: $header-font-family;
+    font-feature-settings: $header-font-feature-settings;
+}
+
+#header {
+    font-size: $header-font-size;
+}
+
+.header-description {
+    text-align: left;
+
+    margin-top: 10%;
+    padding: 50px 15px 0px 100px;
+}
+
+.header-image {
+    margin-top: 10%;
+    padding-left: 100px;
+}
+
+#main-block {
+    display: -webkit-inline-box;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    margin: 10px;
+    perspective: 800px;
+}
