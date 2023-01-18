@@ -1,5 +1,6 @@
-# 3d-image-rotate
-3D image rotate  
+# 3d-image-rotate 
+![](https://img.shields.io/badge/Made%20by-Illya-important)
+![](https://img.shields.io/bower/l/mi?color=blue)  
 JS script for a 3D image rotation effect when the cursor is hovered over.
 There are two versions of the **block_version.js** and **img_version.js**
 ___
